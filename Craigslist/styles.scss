@@ -33,8 +33,16 @@ background-color: black;
       color: white;
       font-size: 1.5rem;
       font-family: $fontstack;
+
+      &:hover{
+        color: violet;
+      }
     }
+
+
 }
+
+
 .headerdiv {
     width: 90.37%;
     display: inline-block;
@@ -49,6 +57,15 @@ background-color: black;
     display: inline;
     text-align: right;
   }
+
+//NAV button properties //
+
+
+
+
+
+
+
 
 .mainarea{
   width: 100%;
