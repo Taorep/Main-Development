@@ -169,3 +169,78 @@ background-color: black;
   width:100%;
   height: 3rem;
 }
+
+
+// ---------------------login page styles---------------------------//
+.top-bar{
+  background-color: black;
+}
+
+#top-logo{
+  color:white;
+}
+
+.welcome-box{
+  border: 2px black solid;
+display: inline-block;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+#log-butn{
+  height: 2.4rem;
+  width: 20.6%;
+  position: relative;
+  left: 2%;
+}
+
+#log-pass{
+  width: 76%;
+  margin-top: 5px;
+}
+
+.ev-else{
+  margin:auto;
+  text-align: center;
+}
+
+.login-styles{
+  font-family: $fontstack;
+  color: black;
+}
+
+#welcome, #log-with, #first-time{
+  text-align: center;
+}
+
+#log-user{
+  width: 100%;
+}
+
+.log-fields{
+  text-align: center;
+  height:2rem;
+}
+
+.lower-box {
+    position: relative;
+    top: 2rem;
+    width: 40%;
+    height: 10rem;
+}
+
+#signup-btn {
+    height: 2.4rem;
+}
+
+.temp{
+  padding: 2px;
+
+}
+
+.welcome-box, .lower-box{
+  border: 2px black solid;
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 10%;
+}
