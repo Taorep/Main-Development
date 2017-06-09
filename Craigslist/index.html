@@ -6,33 +6,43 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>New Craigslist </title>
+      <title>New Craigslist </title>
+
+
+    <!-- Latest compilied and minified jQuery -->
+    <script
+     src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+
 
     <!-- Latest compiled and minified Bootstrap CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous">
 
 
-      <!-- custom compiled SCSS -->
-      <link rel="stylesheet" type="text/css" href="styles.min.css"  />
-
+    <!-- custom compiled SCSS -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.min.css"  />
   </head>
+
+<!-- end head ------------------------------------------------------>
 
 <body id="override">
 
-  <div class="container-fluid navarea">
-    <nav class="nav">
+  <div class="navarea container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-inverse">
+        <div class="col-md-2 navbar-header">
 
-      <div class="logodiv">
-          <h1 id="logo"><a href="#">Craigslist</a></h1>
-      </div>
+            <h1 id="logo"><a class="navbar-brand" href="#">Craigslist</a></h1>
+        </div>
 
-
-        <div class="headerdiv">
-          <ul class="divnav">
-
-              <li id="sale-li" class="navbar">
+        <div class="col-md-10 headerdiv">
+            <ul class="nav navbar-nav">
+              <li id="sale-li" class="n-li">
                   <a class="a-style-nav" id="sale-drop" href="#">for sale</a>
                       <div class="dropdwn sale-menu">
                         <a href="#"> electronics </a>
@@ -41,61 +51,61 @@
                       </div>
               </li>
 
-              <li id="jobs-li" class="navbar">
+              <li id="jobs-li" class="n-li">
                   <a class="a-style-nav" id="jobs-drop" href="#">jobs</a>
                     <div class="dropdwn jobs-menu">
                       <a href="#"> retail </a>
                       <a href="#"> writing </a>
                       <a href="#"> see all </a>
-                  </div>
+                    </div>
               </li>
 
-              <li id="gigs-li" class="navbar">
+              <li id="gigs-li" class="n-li">
                   <a class="a-style-nav" id="gigs-drop" href="#">gigs</a>
                     <div class="dropdwn gigs-menu">
                       <a href="#"> computer </a>
                       <a href="#"> labor </a>
                       <a href="#"> see all</a>
-                  </div>
-                </li>
+                    </div>
+              </li>
 
-              <li id="community-li" class="navbar">
+              <li id="community-li" class="n-li">
                 <a class="a-style-nav" id="community-drop" href="#">community</a>
                   <div class="dropdwn comm-menu">
                     <a href="#"> events </a>
                     <a href="#"> pets </a>
                     <a href="#"> see all</a>
-                </div>
+                  </div>
               </li>
 
-              <li id="housing-li" class="navbar">
+              <li id="housing-li" class="n-li">
                 <a class="a-style-nav" id="housing-drop" href="#">housing</a>
                   <div class="dropdwn housing-menu">
                     <a href="#"> apts </a>
                     <a href="#"> homes </a>
                     <a href="#"> see all</a>
-                </div>
+                  </div>
               </li>
 
-              <li id="personal-li" class="navbar">
+              <li id="personal-li" class="n-li">
                 <a class="a-style-nav" id="personal-drop" href="#">personal</a>
                   <div class="dropdwn personal-menu">
                     <a href="#"> misc romance </a>
                     <a href="#"> platonic </a>
                     <a href="#"> see all</a>
-                </div>
+                  </div>
               </li>
 
-              <li id="services-li" class="navbar">
+              <li id="services-li" class="n-li">
                 <a class="a-style-nav" id="services-drop" href="#">services</a>
                   <div class="dropdwn services-menu">
                     <a href="#"> resumes </a>
                     <a href="#"> labor </a>
                     <a href="#"> see all</a>
-                </div>
+                  </div>
               </li>
 
-              <li id="forums-li" class="navbar">
+              <li id="forums-li" class="n-li">
                 <a class="a-style-nav" id="forums-drop" href="#">forums</a>
                   <div class="dropdwn forums-menu">
                     <a href="#"> politics </a>
@@ -107,35 +117,33 @@
           </ul>
         </div>
 
-<div  class="divnav">
-  <ul>
-    <li class="navbar">
-      <a class=" a-style-nav" href="login.html" id="login">login</a>
-    </li>
-      <span id="v-div1">|</span>
-    <li class="navbar">
-      <a class=" a-style-nav" href="#" id="register">register</a>
-    </li>
-  </ul>
-</div>
 
+<!--
+        <div  class="col-md-2 divnav">
+          <ul>
+            <li class="n-li">
+              <a class=" a-style-nav" href="login.html" id="login">login</a></li>
 
+              <span id="v-div1">|</span>
 
+            <li class="n-li">
+              <a class=" a-style-nav" href="#" id="register">register</a></li>
 
-
-    </nav>
+          </ul>
+        </div>
+-->
+      </nav>
+    </div>
   </div>
 
 
-<div class="container-fluid mainarea">
-
-    <form>
-    <input id="search" placeholder="Search anything" type="text"/>
-    <input id="zip" placeholder="Zip" type="text"  />
-    <input id="Go-button" value="Go" type="submit" />
-  </form>
-</div>
-
+  <div class="container-fluid mainarea">
+    <form method="post" action="login.php">
+      <input id="search" placeholder="Search anything" type="text"/>
+      <input id="zip" placeholder="Zip" type="text"  />
+      <input id="Go-button" value="Go" type="submit" />
+    </form>
+  </div>
 
 
 
@@ -145,11 +153,6 @@
   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
   crossorigin="anonymous"></script>
 
-  <!-- Latest compilied and minified jQuery -->
-  <script
-   src="https://code.jquery.com/jquery-3.2.1.min.js"
-   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-   crossorigin="anonymous"></script>
 
 
 
