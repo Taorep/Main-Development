@@ -29,7 +29,30 @@ $fontstack: Helvetica, sans-serif;
      }
 }
 
+.logster{
+  font-size: 1.25rem;
+  border: 2px white solid;
 
+
+
+  &:hover, &:hover #logister{
+    background-color: white;
+    color: black;
+  }
+}
+
+.a-style-nav:hover{
+  background-color: transparent !important;
+
+}
+
+
+
+
+#diveBoard{
+  color:white;
+  font-family: $fontstack;
+}
 
 #logo {
     display: inline-block;
@@ -40,6 +63,21 @@ $fontstack: Helvetica, sans-serif;
     a:hover{
       color:violet;
       }
+}
+// Hamburger toggle menu //
+.icon-bar{
+  background-color: silver;
+  }
+
+.navbar-toggle{
+  z-index: 1;
+  margin-top: 1.5rem;
+}
+
+
+// crude focus + onClick background remover //
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover  {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -92,34 +130,15 @@ input[type="text"] {
 
 //nested .jumbotron-------------------
 
-  #search,#zip,#Go-button{
+  #search,#zip{
     position: relative;
     height: 3rem;
     text-align: center;
-    top: 350px;
-    }
-
-  #search, #zip,{
-    width: 25%;
     background-color: rgba(0,0,0,0.7);
     border: white 2px solid;
     font-size: 1.5rem;
     }
-
-  #zip{
-    width:7%;
-    }
-
-  #Go-button{
-    display: none;
-    width:5%;
-    border: none;
-    height: 3.4rem;
-    }
-
 }
-
-// ---------- / body and search styles ----------- //
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

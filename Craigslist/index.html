@@ -35,24 +35,32 @@
   <div class="navarea container-fluid">
     <div class="row">
       <nav class="navbar">
-        <div class="navbar-header">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false">
+<!--             <span class="sr-only">Toggle navigation</span> -->
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
           <h1 id="logo"><a class="navbar-brand" href="#">Craigslist</a></h1>
         </div>
 
-            <ul class="nav navbar-nav navbar-right">
-              <li id="sale-li" class="n-li dropdown">
+           <div class="collapse navbar-collapse" id="menu-collapse">
+             <ul class="nav navbar-nav navbar-right">
 
+                <li class="n-li dropdown">
                   <a class="a-style-nav dropdown-toggle" data-toggle="dropdown" role="button" href="#">for sale
                     <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#"> electronics </a></li>
-                        <li><a href="#"> cars/trucks </a></li>
-                        <li><a href="#"> see all </a></li>
-                      </ul>
-              </li>
+                        <ul class="dropdown-menu">
+                          <li><a href="#"> electronics </a></li>
+                          <li><a href="#"> cars/trucks </a></li>
+                          <li><a href="#"> see all </a></li>
+                        </ul>
+                </li>
 
-              <li id="sale-li" class="n-li dropdown">
-
+                <li class="n-li dropdown">
                   <a class="a-style-nav dropdown-toggle" data-toggle="dropdown" role="button" href="#">jobs
                     <span class="caret"></span></a>
                       <ul class="dropdown-menu">
@@ -60,76 +68,66 @@
                         <li><a href="#"> cars/trucks </a></li>
                         <li><a href="#"> see all </a></li>
                       </ul>
-              </li>
+                </li>
 
-              <li id="sale-li" class="n-li dropdown">
+                <li class="n-li dropdown">
 
-                  <a class="a-style-nav dropdown-toggle" data-toggle="dropdown" role="button" href="#">gigs
-                    <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#"> electronics </a></li>
-                        <li><a href="#"> cars/trucks </a></li>
-                        <li><a href="#"> see all </a></li>
-                      </ul>
-              </li>
+                    <a class="a-style-nav dropdown-toggle" data-toggle="dropdown" role="button" href="#">gigs
+                      <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#"> electronics </a></li>
+                          <li><a href="#"> cars/trucks </a></li>
+                          <li><a href="#"> see all </a></li>
+                        </ul>
+                </li>
 
-              <li id="sale-li" class="n-li dropdown">
+                <li class="n-li dropdown">
 
-                  <a class="a-style-nav dropdown-toggle" data-toggle="dropdown" role="button" href="#">housing
-                    <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#"> electronics </a></li>
-                        <li><a href="#"> cars/trucks </a></li>
-                        <li><a href="#"> see all </a></li>
-                      </ul>
-              </li>
+                    <a class="a-style-nav dropdown-toggle" data-toggle="dropdown" role="button" href="#">housing
+                      <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#"> electronics </a></li>
+                          <li><a href="#"> cars/trucks </a></li>
+                          <li><a href="#"> see all </a></li>
+                        </ul>
+                </li>
 
-              <li id="sale-li" class="n-li">
-                  <a class="a-style-nav" href="#">community</a>
-              </li>
+                <li class="n-li">
+                    <a class="a-style-nav" href="#">community</a>
+                </li>
 
-              <li id="sale-li" class="n-li">
-                  <a class="a-style-nav" href="#">personal</a>
-              </li>
+                <li class="n-li">
+                    <a class="a-style-nav" href="#">personal</a>
+                </li>
 
-              <li id="sale-li" class="n-li">
-                  <a class="a-style-nav" href="#">services</a>
-              </li>
+                <li class="n-li">
+                    <a class="a-style-nav" href="#">services</a>
+                </li>
 
-              <li id="sale-li" class="n-li">
-                  <a class="a-style-nav" href="#">forums</a>
-              </li>
+                <li class="n-li">
+                    <a class="a-style-nav" href="#">forums</a>
+                </li>
 
+                <li class="logster n-li ">
+                    <a id="logister" class="a-style-nav" href="#">login / register</a>
+                </li>
 
-          </ul>
-
-
-
-<!--
-        <div  class="col-md-2 divnav">
-          <ul>
-            <li class="n-li">
-              <a class=" a-style-nav" href="login.html" id="login">login</a></li>
-
-              <span id="v-div1">|</span>
-
-            <li class="n-li">
-              <a class=" a-style-nav" href="#" id="register">register</a></li>
 
           </ul>
-        </div>
--->
+       </div><!-- navbar collapse -->
       </nav>
-    </div>
-  </div>
+    </div><!-- row -->
+  </div><!-- container-fluid -->
 
 
   <div class="container-fluid jumbotron">
-    <form method="post" action="login.php">
-      <input id="search" placeholder="Search anything" type="text"/>
-      <input id="zip" placeholder="Zip" type="text"  />
-      <input id="Go-button" value="Go" type="submit" />
-    </form>
+      <h1 id="diveBoard">Explore Everything</h1>
+
+              <br /><br />
+
+      <form method="post" action="#">
+        <input id="search" placeholder="Search anything" type="text"/>
+      </form>
   </div>
 
 
