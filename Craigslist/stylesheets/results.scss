@@ -1,0 +1,51 @@
+$leftWidth: 20vw;
+$rightWidth: 80vw;
+
+$topHeight: 9vh;
+$bottomHeight: 91vh;
+
+$fontstack: Helvetica, sans-serif;
+
+html, body{
+  margin:0;
+  padding: 0;
+  font-size: 16px;
+}
+
+//------------------------------------------------------//
+
+.directory{
+  background-color: silver;
+  position: relative;
+  width: 100vw;
+  height: $topHeight;
+  float: right;
+
+  .toolbar{
+    background-color: tomato;
+    float:left;
+    width:$leftWidth;
+    height:100vh;
+    text-align: center;
+
+    #searchBar{
+      width: auto;
+    }
+
+    .logo{
+      font-family: $fontstack;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+
+.results{
+  background-color: grey;
+  float:right;
+  width: $rightWidth;
+  height: $bottomHeight;
+}
